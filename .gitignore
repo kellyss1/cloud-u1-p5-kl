@@ -1,0 +1,24 @@
+# Archivos de estado local (contienen información sensible e infraestructura en curso)
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+*.exe
+
+# Variables de entorno y secretos locales
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Carpeta de inicialización y proveedores (.terraform)
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de planes exportados que podrían contener secretos
+*.tfplan
+terraform.exe
