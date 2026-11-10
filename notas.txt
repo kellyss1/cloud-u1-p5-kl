@@ -1,3 +1,5 @@
+aws configure
+
 .\terraform init
 plan
 apply
